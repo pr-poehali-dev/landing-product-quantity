@@ -98,8 +98,10 @@ const Login = () => {
         
         <div className="mt-6 text-center text-sm text-gray-500">
           <div className="mb-2">Тестовые учетные записи:</div>
-          <div>Email: admin@company.ru / Пароль: admin123</div>
-          <div>Email: user@company.ru / Пароль: user123</div>
+          <div className="flex justify-center gap-4">
+            <div className="px-3 py-1 bg-gray-100 rounded-md">admin@company.ru / admin123</div>
+            <div className="px-3 py-1 bg-gray-100 rounded-md">user@company.ru / user123</div>
+          </div>
         </div>
       </Card>
     </div>
